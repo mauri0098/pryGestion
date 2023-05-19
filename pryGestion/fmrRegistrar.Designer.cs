@@ -73,7 +73,7 @@
             // 
             // txtTipodeActividad
             // 
-            this.txtTipodeActividad.Location = new System.Drawing.Point(135, 48);
+            this.txtTipodeActividad.Location = new System.Drawing.Point(134, 47);
             this.txtTipodeActividad.Name = "txtTipodeActividad";
             this.txtTipodeActividad.Size = new System.Drawing.Size(100, 20);
             this.txtTipodeActividad.TabIndex = 2;
