@@ -31,5 +31,39 @@ namespace pryGestion
         {
 
         }
+
+        private void cmdRegistrar_Click(object sender, EventArgs e)
+        {
+            if (dtpfecha.Value >= DateTime.Today)
+            {
+                if (ltsTipoDeActividad.SelectedIndex != -1) 
+                {
+                    if (txtDetalledeActivida.Text == "")
+                    {
+                        MessageBox.Show("falta completar el detalle", "cargar detalle", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txtDetalledeActivida.Focus();
+                
+                    }
+                    else
+                    {
+                        MessageBox.Show("vamos a grabar...");
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("seleccionbar un tipo de actividad", "cargar actividad");
+                    ltsTipoDeActividad.Focus();
+                        
+                }
+             
+            }
+            else
+            {
+                MessageBox.Show("seleccionar una fecha actual o posterior a la de hoy", "cargar tarea", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                dtpfecha.Value = DateTime.Today;
+                dtpfecha.Focus();
+            }
+        }
     }
 }
