@@ -42,8 +42,8 @@
             this.chkRepositorio = new System.Windows.Forms.CheckBox();
             this.cmdVolver = new System.Windows.Forms.Button();
             this.cmdRegistrar = new System.Windows.Forms.Button();
-            this.ltsTipoDeActividad = new System.Windows.Forms.ComboBox();
-            this.txtDetalledeActivida = new System.Windows.Forms.TextBox();
+            this.ltsTipodeActividad = new System.Windows.Forms.ComboBox();
+            this.txtDetalleActivida = new System.Windows.Forms.TextBox();
             this.mrcReunion.SuspendLayout();
             this.mrcTareas.SuspendLayout();
             this.SuspendLayout();
@@ -202,33 +202,33 @@
             this.cmdRegistrar.UseVisualStyleBackColor = true;
             this.cmdRegistrar.Click += new System.EventHandler(this.cmdRegistrar_Click);
             // 
-            // ltsTipoDeActividad
+            // ltsTipodeActividad
             // 
-            this.ltsTipoDeActividad.FormattingEnabled = true;
-            this.ltsTipoDeActividad.Items.AddRange(new object[] {
-            "hsuiahdas",
-            "dasdsadas",
-            "dasdas"});
-            this.ltsTipoDeActividad.Location = new System.Drawing.Point(124, 47);
-            this.ltsTipoDeActividad.Name = "ltsTipoDeActividad";
-            this.ltsTipoDeActividad.Size = new System.Drawing.Size(121, 21);
-            this.ltsTipoDeActividad.TabIndex = 14;
+            this.ltsTipodeActividad.FormattingEnabled = true;
+            this.ltsTipodeActividad.Items.AddRange(new object[] {
+            "Actividad1",
+            "Actividad2",
+            "Actividad3"});
+            this.ltsTipodeActividad.Location = new System.Drawing.Point(124, 47);
+            this.ltsTipodeActividad.Name = "ltsTipodeActividad";
+            this.ltsTipodeActividad.Size = new System.Drawing.Size(121, 21);
+            this.ltsTipodeActividad.TabIndex = 14;
             // 
-            // txtDetalledeActivida
+            // txtDetalleActivida
             // 
-            this.txtDetalledeActivida.Location = new System.Drawing.Point(12, 107);
-            this.txtDetalledeActivida.Multiline = true;
-            this.txtDetalledeActivida.Name = "txtDetalledeActivida";
-            this.txtDetalledeActivida.Size = new System.Drawing.Size(265, 117);
-            this.txtDetalledeActivida.TabIndex = 15;
+            this.txtDetalleActivida.Location = new System.Drawing.Point(12, 107);
+            this.txtDetalleActivida.Multiline = true;
+            this.txtDetalleActivida.Name = "txtDetalleActivida";
+            this.txtDetalleActivida.Size = new System.Drawing.Size(265, 117);
+            this.txtDetalleActivida.TabIndex = 15;
             // 
             // fmrRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(311, 597);
-            this.Controls.Add(this.txtDetalledeActivida);
-            this.Controls.Add(this.ltsTipoDeActividad);
+            this.Controls.Add(this.txtDetalleActivida);
+            this.Controls.Add(this.ltsTipodeActividad);
             this.Controls.Add(this.cmdRegistrar);
             this.Controls.Add(this.cmdVolver);
             this.Controls.Add(this.mrcTareas);
@@ -266,7 +266,7 @@
         private System.Windows.Forms.CheckBox chkRepositorio;
         private System.Windows.Forms.Button cmdVolver;
         private System.Windows.Forms.Button cmdRegistrar;
-        private System.Windows.Forms.ComboBox ltsTipoDeActividad;
-        private System.Windows.Forms.TextBox txtDetalledeActivida;
+        private System.Windows.Forms.ComboBox ltsTipodeActividad;
+        private System.Windows.Forms.TextBox txtDetalleActivida;
     }
 }

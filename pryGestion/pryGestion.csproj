@@ -52,6 +52,12 @@
     <Compile Include="fmrRegistrar.Designer.cs">
       <DependentUpon>fmrRegistrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="frminciodesesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminciodesesion.Designer.cs">
+      <DependentUpon>frminciodesesion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fmrRegistrar.resx">
       <DependentUpon>fmrRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminciodesesion.resx">
+      <DependentUpon>frminciodesesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

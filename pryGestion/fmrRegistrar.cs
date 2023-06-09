@@ -36,12 +36,13 @@ namespace pryGestion
         {
             if (dtpfecha.Value >= DateTime.Today)
             {
-                if (ltsTipoDeActividad.SelectedIndex != -1) 
+                if (ltsTipodeActividad.SelectedIndex != -1) 
                 {
-                    if (txtDetalledeActivida.Text == "")
+                    if (txtDetalleActivida.Text == "")
                     {
                         MessageBox.Show("falta completar el detalle", "cargar detalle", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        txtDetalledeActivida.Focus();
+                        txtDetalleActivida.Focus();
+                        
                 
                     }
                     else
@@ -53,7 +54,7 @@ namespace pryGestion
                 else
                 {
                     MessageBox.Show("seleccionbar un tipo de actividad", "cargar actividad");
-                    ltsTipoDeActividad.Focus();
+                    ltsTipodeActividad.Focus();
                         
                 }
              
