@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryGestion
 {
-    public partial class fmrRegistrar : Form
+    public partial class frmRegistrar : Form
     {
-        public fmrRegistrar()
+        public frmRegistrar()
         {
             InitializeComponent();
         }

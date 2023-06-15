@@ -1,6 +1,6 @@
 ﻿namespace pryGestion
 {
-    partial class fmrRegistrar
+    partial class frmRegistrar
     {
         /// <summary>
         /// Required designer variable.
@@ -222,7 +222,7 @@
             this.txtDetalleActivida.Size = new System.Drawing.Size(265, 117);
             this.txtDetalleActivida.TabIndex = 15;
             // 
-            // fmrRegistrar
+            // frmRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -238,9 +238,9 @@
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblTipodeActividad);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Name = "fmrRegistrar";
+            this.Name = "frmRegistrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "fmrRegistrar";
+            this.Text = "Registrar";
             this.mrcReunion.ResumeLayout(false);
             this.mrcReunion.PerformLayout();
             this.mrcTareas.ResumeLayout(false);

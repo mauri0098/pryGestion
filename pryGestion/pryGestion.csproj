@@ -52,11 +52,17 @@
     <Compile Include="fmrRegistrar.Designer.cs">
       <DependentUpon>fmrRegistrar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frminciodesesion.cs">
+    <Compile Include="frmIncio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frminciodesesion.Designer.cs">
-      <DependentUpon>frminciodesesion.cs</DependentUpon>
+    <Compile Include="frmIncio.Designer.cs">
+      <DependentUpon>frmIncio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -75,8 +81,11 @@
     <EmbeddedResource Include="fmrRegistrar.resx">
       <DependentUpon>fmrRegistrar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frminciodesesion.resx">
-      <DependentUpon>frminciodesesion.cs</DependentUpon>
+    <EmbeddedResource Include="frmIncio.resx">
+      <DependentUpon>frmIncio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
