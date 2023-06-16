@@ -216,7 +216,7 @@
             // 
             // txtDetalleActivida
             // 
-            this.txtDetalleActivida.Location = new System.Drawing.Point(12, 107);
+            this.txtDetalleActivida.Location = new System.Drawing.Point(11, 107);
             this.txtDetalleActivida.Multiline = true;
             this.txtDetalleActivida.Name = "txtDetalleActivida";
             this.txtDetalleActivida.Size = new System.Drawing.Size(265, 117);
