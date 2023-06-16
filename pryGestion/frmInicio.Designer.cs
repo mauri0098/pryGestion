@@ -1,6 +1,6 @@
 ﻿namespace pryGestion
 {
-    partial class frmIncio
+    partial class frmInicio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.cmdLogin = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // cmdLogin
+            // 
+            this.cmdLogin.Location = new System.Drawing.Point(274, 260);
+            this.cmdLogin.Name = "cmdLogin";
+            this.cmdLogin.Size = new System.Drawing.Size(206, 65);
+            this.cmdLogin.TabIndex = 0;
+            this.cmdLogin.Text = "Log in";
+            this.cmdLogin.UseVisualStyleBackColor = true;
+            this.cmdLogin.Click += new System.EventHandler(this.cmdLogin_Click);
+            // 
+            // frmInicio
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmIncio";
+            this.Controls.Add(this.cmdLogin);
+            this.Name = "frmInicio";
+            this.Text = "frmInicio";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button cmdLogin;
     }
 }

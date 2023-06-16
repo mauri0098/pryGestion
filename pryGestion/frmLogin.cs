@@ -12,9 +12,23 @@ namespace pryGestion
 {
     public partial class frmLogin : Form
     {
+        //Variables
+        string Vusuario;
+        string Vcontraseña;
         public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void cmdLogin_Click(object sender, EventArgs e)
+        {
+            //pasar datos
+            Vusuario = txtUsuario.Text;
+            Vcontraseña = txtContraseña.Text;
+            if (Vusuario == "Mauri" && Vcontraseña == "123")
+            {
+
+            }
         }
     }
 }

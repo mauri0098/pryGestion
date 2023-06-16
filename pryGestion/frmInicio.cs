@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace pryGestion
 {
-    public partial class frmIncio : Form
+    public partial class frmInicio : Form
     {
-        public frmIncio()
+        public frmInicio()
         {
             InitializeComponent();
+        }
+
+        private void cmdLogin_Click(object sender, EventArgs e)
+        {
+            frmLogin frmLogin = new frmLogin();
+            this.Hide();   
+            frmLogin.ShowDialog();
+            
         }
     }
 }
