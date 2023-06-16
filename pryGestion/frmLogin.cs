@@ -26,22 +26,44 @@ namespace pryGestion
                 this.Hide();
 
             }
+            else if ((Vusuario == "Fede" && Vcontraseña == "2005"))
+            {
+                frmPrincipal ventanadeRegistro = new frmPrincipal();
+                ventanadeRegistro.ShowDialog();
+                this.Hide();
+            }
+            else if ((Vusuario == "Maxi" && Vcontraseña == "2006"))
+            {
+                frmPrincipal ventanadeRegistro = new frmPrincipal();
+                ventanadeRegistro.ShowDialog();
+                this.Hide();
+            }
+
+           
             else
             {
                 VcontadorLogin++;
-                if (VcontadorLogin == 3) 
+                if (VcontadorLogin == 3)
                 {
-                    MessageBox.Show("Demasiados Intentos ","error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Demasiados Intentos ", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Close();
                 }
                 else
                 {
                     MessageBox.Show("Dato incorrecto. intento:" + VcontadorLogin.ToString() + " de 3 ", "Login . Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }   
-            
+            }
 
-            
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
