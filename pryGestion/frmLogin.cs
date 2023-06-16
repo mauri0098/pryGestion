@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace pryGestion
@@ -45,7 +38,7 @@ namespace pryGestion
                 {
                     MessageBox.Show("Dato incorrecto. intento:" + VcontadorLogin.ToString() + " de 3 ", "Login . Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
+            }   
             
 
             
