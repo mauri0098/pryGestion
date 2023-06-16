@@ -16,5 +16,12 @@ namespace pryGestion
         {
             InitializeComponent();
         }
+
+        private void cmdRegistrarActividad_Click(object sender, EventArgs e)
+        {
+            frmRegistrar frmRegistrar = new frmRegistrar();
+            this.Hide();
+            frmRegistrar.ShowDialog();
+        }
     }
 }

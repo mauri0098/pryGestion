@@ -38,8 +38,13 @@ namespace pryGestion
                 ventanadeRegistro.ShowDialog();
                 this.Hide();
             }
+            else if ((Vusuario == "Lucas" && Vcontraseña == "2007"))
+            {
+                frmPrincipal ventanadeRegistro = new frmPrincipal();
+                ventanadeRegistro.ShowDialog();
+                this.Hide();
+            }
 
-           
             else
             {
                 VcontadorLogin++;
