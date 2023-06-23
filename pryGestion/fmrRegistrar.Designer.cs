@@ -42,7 +42,7 @@
             this.chkRepositorio = new System.Windows.Forms.CheckBox();
             this.cmdVolver = new System.Windows.Forms.Button();
             this.cmdRegistrar = new System.Windows.Forms.Button();
-            this.ltsTipodeActividad = new System.Windows.Forms.ComboBox();
+            this.lstActividad = new System.Windows.Forms.ComboBox();
             this.txtDetalleActivida = new System.Windows.Forms.TextBox();
             this.dtgvRegistro = new System.Windows.Forms.DataGridView();
             this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -209,17 +209,17 @@
             this.cmdRegistrar.UseVisualStyleBackColor = true;
             this.cmdRegistrar.Click += new System.EventHandler(this.cmdRegistrar_Click);
             // 
-            // ltsTipodeActividad
+            // lstActividad
             // 
-            this.ltsTipodeActividad.FormattingEnabled = true;
-            this.ltsTipodeActividad.Items.AddRange(new object[] {
+            this.lstActividad.FormattingEnabled = true;
+            this.lstActividad.Items.AddRange(new object[] {
             "Actividad1",
             "Actividad2",
             "Actividad3"});
-            this.ltsTipodeActividad.Location = new System.Drawing.Point(124, 47);
-            this.ltsTipodeActividad.Name = "ltsTipodeActividad";
-            this.ltsTipodeActividad.Size = new System.Drawing.Size(121, 21);
-            this.ltsTipodeActividad.TabIndex = 14;
+            this.lstActividad.Location = new System.Drawing.Point(124, 47);
+            this.lstActividad.Name = "lstActividad";
+            this.lstActividad.Size = new System.Drawing.Size(121, 21);
+            this.lstActividad.TabIndex = 14;
             // 
             // txtDetalleActivida
             // 
@@ -276,7 +276,7 @@
             this.ClientSize = new System.Drawing.Size(826, 578);
             this.Controls.Add(this.dtgvRegistro);
             this.Controls.Add(this.txtDetalleActivida);
-            this.Controls.Add(this.ltsTipodeActividad);
+            this.Controls.Add(this.lstActividad);
             this.Controls.Add(this.cmdRegistrar);
             this.Controls.Add(this.cmdVolver);
             this.Controls.Add(this.mrcTareas);
@@ -315,7 +315,7 @@
         private System.Windows.Forms.CheckBox chkRepositorio;
         private System.Windows.Forms.Button cmdVolver;
         private System.Windows.Forms.Button cmdRegistrar;
-        private System.Windows.Forms.ComboBox ltsTipodeActividad;
+        private System.Windows.Forms.ComboBox lstActividad;
         private System.Windows.Forms.TextBox txtDetalleActivida;
         private System.Windows.Forms.DataGridView dtgvRegistro;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
