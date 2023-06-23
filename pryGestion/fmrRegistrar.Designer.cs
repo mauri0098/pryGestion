@@ -232,6 +232,8 @@
             // dtgvRegistro
             // 
             this.dtgvRegistro.AllowUserToOrderColumns = true;
+            this.dtgvRegistro.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dtgvRegistro.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dtgvFecha,
@@ -239,9 +241,9 @@
             this.dtgvDetalle,
             this.dtgvReunion,
             this.dtgvTareas});
-            this.dtgvRegistro.Location = new System.Drawing.Point(291, 12);
+            this.dtgvRegistro.Location = new System.Drawing.Point(282, 156);
             this.dtgvRegistro.Name = "dtgvRegistro";
-            this.dtgvRegistro.Size = new System.Drawing.Size(523, 352);
+            this.dtgvRegistro.Size = new System.Drawing.Size(524, 352);
             this.dtgvRegistro.TabIndex = 16;
             // 
             // dtgvFecha
