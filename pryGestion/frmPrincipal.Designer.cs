@@ -34,7 +34,7 @@
             // 
             // cmdRegistrarActividad
             // 
-            this.cmdRegistrarActividad.Location = new System.Drawing.Point(283, 137);
+            this.cmdRegistrarActividad.Location = new System.Drawing.Point(280, 137);
             this.cmdRegistrarActividad.Name = "cmdRegistrarActividad";
             this.cmdRegistrarActividad.Size = new System.Drawing.Size(144, 47);
             this.cmdRegistrarActividad.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(283, 213);
+            this.button2.Location = new System.Drawing.Point(280, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 52);
             this.button2.TabIndex = 1;

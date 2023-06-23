@@ -38,14 +38,15 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(107, 75);
+            this.txtContraseña.Location = new System.Drawing.Point(107, 79);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(118, 20);
             this.txtContraseña.TabIndex = 12;
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(153, 133);
+            this.cmdCancelar.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCancelar.Location = new System.Drawing.Point(126, 133);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(75, 23);
             this.cmdCancelar.TabIndex = 11;
@@ -54,7 +55,8 @@
             // 
             // cmdLogin
             // 
-            this.cmdLogin.Location = new System.Drawing.Point(61, 133);
+            this.cmdLogin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdLogin.Location = new System.Drawing.Point(32, 133);
             this.cmdLogin.Name = "cmdLogin";
             this.cmdLogin.Size = new System.Drawing.Size(75, 23);
             this.cmdLogin.TabIndex = 10;
@@ -64,26 +66,28 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(107, 26);
+            this.txtUsuario.Location = new System.Drawing.Point(107, 31);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(121, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(118, 20);
             this.txtUsuario.TabIndex = 9;
             // 
             // lblContraseña
             // 
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(39, 75);
+            this.lblContraseña.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(29, 84);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(61, 13);
+            this.lblContraseña.Size = new System.Drawing.Size(69, 15);
             this.lblContraseña.TabIndex = 8;
             this.lblContraseña.Text = "Contraseña";
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(39, 29);
+            this.lblUsuario.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(29, 36);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(43, 13);
+            this.lblUsuario.Size = new System.Drawing.Size(48, 15);
             this.lblUsuario.TabIndex = 7;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -91,13 +95,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(321, 192);
+            this.ClientSize = new System.Drawing.Size(256, 174);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmdLogin);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "frmLogin";
             this.Text = "Login";
             this.ResumeLayout(false);
