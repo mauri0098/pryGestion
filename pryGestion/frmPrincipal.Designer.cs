@@ -34,7 +34,7 @@
             // 
             // cmdRegistrarActividad
             // 
-            this.cmdRegistrarActividad.Location = new System.Drawing.Point(267, 159);
+            this.cmdRegistrarActividad.Location = new System.Drawing.Point(270, 159);
             this.cmdRegistrarActividad.Name = "cmdRegistrarActividad";
             this.cmdRegistrarActividad.Size = new System.Drawing.Size(144, 47);
             this.cmdRegistrarActividad.TabIndex = 0;

@@ -113,6 +113,7 @@
             // optNo
             // 
             this.optNo.AutoSize = true;
+            this.optNo.Checked = true;
             this.optNo.Location = new System.Drawing.Point(41, 62);
             this.optNo.Name = "optNo";
             this.optNo.Size = new System.Drawing.Size(44, 21);
@@ -128,7 +129,6 @@
             this.optSi.Name = "optSi";
             this.optSi.Size = new System.Drawing.Size(36, 21);
             this.optSi.TabIndex = 0;
-            this.optSi.TabStop = true;
             this.optSi.Text = "Si";
             this.optSi.UseVisualStyleBackColor = true;
             // 

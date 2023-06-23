@@ -35,7 +35,8 @@ namespace pryGestion
 
         private void cmdRegistrar_Click(object sender, EventArgs e)
         {
-            
+            string varReunion = "";
+            string varTarea = "";
         
             if (dtpfecha.Value >= DateTime.Today)
             {
@@ -46,26 +47,53 @@ namespace pryGestion
                         MessageBox.Show("falta completar el detalle", "cargar detalle", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txtDetalleActivida.Focus();
 
-                         
-                        if (optSi.Checked == true)
-                        {
-                             
-                        }
-                        else
-                        {
-                            optNo.Checked = true; 
-                        }
                     }
                     else
                     {
+
+
                         MessageBox.Show("vamos a grabar...");
+
+
+
+
+                        if (optSi.Checked == true)
+                        {
+                            varReunion = "SI";
+                        }
+                        else
+                        {
+                            varReunion = "NO";
+                        }
+                        if (chkDebate.Checked)
+                        {
+                            varTarea = "Debate";
+
+                        }
+                        if (chkInvestigacion.Checked)
+                        {
+                            varTarea = "Investigacion";
+
+                        }
+                        if (chkNotasReunion.Checked)
+                        {
+                            varTarea = "Notas";
+
+                        }
+                        if (chkRepositorio.Checked)
+                        {
+                            varTarea = "Repositorio";
+
+                        }
+
 
                         int n = dtgvRegistro.Rows.Add();
 
                         dtgvRegistro.Rows[n].Cells[0].Value = dtpfecha.Text;
                         dtgvRegistro.Rows[n].Cells[1].Value = lstActividad.Text;
                         dtgvRegistro.Rows[n].Cells[2].Value = txtDetalleActivida.Text;
-                        dtgvRegistro.Rows[n].Cells[3].Value = optSi.Checked;
+                        dtgvRegistro.Rows[n].Cells[3].Value = varReunion;
+                        dtgvRegistro.Rows[n].Cells[4].Value = varTarea;
                     }
 
                 }
