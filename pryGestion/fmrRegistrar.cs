@@ -48,6 +48,13 @@ namespace pryGestion
                     else
                     {
                         MessageBox.Show("vamos a grabar...");
+
+                        int n = dtgvRegistro.Rows.Add();
+
+                        dtgvRegistro.Rows[n].Cells[0].Value = dtpfecha.Text;
+                        dtgvRegistro.Rows[n].Cells[1].Value = lblDetalleActividad.Text;
+                        dtgvRegistro.Rows[n].Cells[2].Value = txtDetalleActivida.Text;
+                       
                     }
 
                 }

@@ -44,8 +44,15 @@
             this.cmdRegistrar = new System.Windows.Forms.Button();
             this.ltsTipodeActividad = new System.Windows.Forms.ComboBox();
             this.txtDetalleActivida = new System.Windows.Forms.TextBox();
+            this.dtgvRegistro = new System.Windows.Forms.DataGridView();
+            this.dtgvFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvActividad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvReunion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvTareas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mrcReunion.SuspendLayout();
             this.mrcTareas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegistro)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTipodeActividad
@@ -183,7 +190,7 @@
             // cmdVolver
             // 
             this.cmdVolver.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdVolver.Location = new System.Drawing.Point(56, 562);
+            this.cmdVolver.Location = new System.Drawing.Point(43, 524);
             this.cmdVolver.Name = "cmdVolver";
             this.cmdVolver.Size = new System.Drawing.Size(75, 23);
             this.cmdVolver.TabIndex = 11;
@@ -193,7 +200,7 @@
             // cmdRegistrar
             // 
             this.cmdRegistrar.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistrar.Location = new System.Drawing.Point(160, 562);
+            this.cmdRegistrar.Location = new System.Drawing.Point(163, 524);
             this.cmdRegistrar.Name = "cmdRegistrar";
             this.cmdRegistrar.Size = new System.Drawing.Size(75, 23);
             this.cmdRegistrar.TabIndex = 12;
@@ -222,11 +229,52 @@
             this.txtDetalleActivida.Size = new System.Drawing.Size(265, 117);
             this.txtDetalleActivida.TabIndex = 15;
             // 
+            // dtgvRegistro
+            // 
+            this.dtgvRegistro.AllowUserToOrderColumns = true;
+            this.dtgvRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgvFecha,
+            this.dtgvActividad,
+            this.dtgvDetalle,
+            this.dtgvReunion,
+            this.dtgvTareas});
+            this.dtgvRegistro.Location = new System.Drawing.Point(291, 12);
+            this.dtgvRegistro.Name = "dtgvRegistro";
+            this.dtgvRegistro.Size = new System.Drawing.Size(523, 352);
+            this.dtgvRegistro.TabIndex = 16;
+            // 
+            // dtgvFecha
+            // 
+            this.dtgvFecha.HeaderText = "Fecha";
+            this.dtgvFecha.Name = "dtgvFecha";
+            // 
+            // dtgvActividad
+            // 
+            this.dtgvActividad.HeaderText = "Actividad";
+            this.dtgvActividad.Name = "dtgvActividad";
+            // 
+            // dtgvDetalle
+            // 
+            this.dtgvDetalle.HeaderText = "Detalle";
+            this.dtgvDetalle.Name = "dtgvDetalle";
+            // 
+            // dtgvReunion
+            // 
+            this.dtgvReunion.HeaderText = "Reunion";
+            this.dtgvReunion.Name = "dtgvReunion";
+            // 
+            // dtgvTareas
+            // 
+            this.dtgvTareas.HeaderText = "Tareas";
+            this.dtgvTareas.Name = "dtgvTareas";
+            // 
             // frmRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 597);
+            this.ClientSize = new System.Drawing.Size(826, 578);
+            this.Controls.Add(this.dtgvRegistro);
             this.Controls.Add(this.txtDetalleActivida);
             this.Controls.Add(this.ltsTipodeActividad);
             this.Controls.Add(this.cmdRegistrar);
@@ -245,6 +293,7 @@
             this.mrcReunion.PerformLayout();
             this.mrcTareas.ResumeLayout(false);
             this.mrcTareas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRegistro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +317,11 @@
         private System.Windows.Forms.Button cmdRegistrar;
         private System.Windows.Forms.ComboBox ltsTipodeActividad;
         private System.Windows.Forms.TextBox txtDetalleActivida;
+        private System.Windows.Forms.DataGridView dtgvRegistro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvFecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvActividad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvDetalle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvReunion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dtgvTareas;
     }
 }
