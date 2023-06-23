@@ -241,7 +241,7 @@
             this.dtgvDetalle,
             this.dtgvReunion,
             this.dtgvTareas});
-            this.dtgvRegistro.Location = new System.Drawing.Point(282, 156);
+            this.dtgvRegistro.Location = new System.Drawing.Point(282, 118);
             this.dtgvRegistro.Name = "dtgvRegistro";
             this.dtgvRegistro.Size = new System.Drawing.Size(524, 352);
             this.dtgvRegistro.TabIndex = 16;
