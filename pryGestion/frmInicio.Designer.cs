@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
             this.cmdIncioSesion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(527, 315);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmdIncioSesion);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmInicio";
             this.Text = "frmInicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
