@@ -34,7 +34,7 @@
             // 
             // cmdRegistrarActividad
             // 
-            this.cmdRegistrarActividad.Location = new System.Drawing.Point(280, 137);
+            this.cmdRegistrarActividad.Location = new System.Drawing.Point(280, 104);
             this.cmdRegistrarActividad.Name = "cmdRegistrarActividad";
             this.cmdRegistrarActividad.Size = new System.Drawing.Size(144, 47);
             this.cmdRegistrarActividad.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(280, 213);
+            this.button2.Location = new System.Drawing.Point(280, 240);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 52);
             this.button2.TabIndex = 1;
@@ -59,6 +59,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.cmdRegistrarActividad);
             this.Name = "frmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion de Tareas";
             this.ResumeLayout(false);
 
