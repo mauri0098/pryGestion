@@ -83,11 +83,11 @@
             // lblDetalleActividad
             // 
             this.lblDetalleActividad.AutoSize = true;
-            this.lblDetalleActividad.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDetalleActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDetalleActividad.ForeColor = System.Drawing.Color.Blue;
             this.lblDetalleActividad.Location = new System.Drawing.Point(7, 83);
             this.lblDetalleActividad.Name = "lblDetalleActividad";
-            this.lblDetalleActividad.Size = new System.Drawing.Size(138, 21);
+            this.lblDetalleActividad.Size = new System.Drawing.Size(129, 19);
             this.lblDetalleActividad.TabIndex = 3;
             this.lblDetalleActividad.Text = "Detalle  Actividad";
             this.lblDetalleActividad.Click += new System.EventHandler(this.label2_Click);
@@ -195,7 +195,7 @@
             // cmdVolver
             // 
             this.cmdVolver.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdVolver.Location = new System.Drawing.Point(42, 497);
+            this.cmdVolver.Location = new System.Drawing.Point(148, 488);
             this.cmdVolver.Name = "cmdVolver";
             this.cmdVolver.Size = new System.Drawing.Size(75, 32);
             this.cmdVolver.TabIndex = 11;
@@ -206,7 +206,7 @@
             // cmdRegistrar
             // 
             this.cmdRegistrar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistrar.Location = new System.Drawing.Point(148, 497);
+            this.cmdRegistrar.Location = new System.Drawing.Point(28, 488);
             this.cmdRegistrar.Name = "cmdRegistrar";
             this.cmdRegistrar.Size = new System.Drawing.Size(75, 32);
             this.cmdRegistrar.TabIndex = 12;

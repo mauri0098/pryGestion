@@ -12,6 +12,11 @@ namespace pryGestion
 {
     public partial class frmRegistrar : Form
     {
+        //declaracion de matriz
+        string[,] MatrizRegistrodeActividad
+              = new string[5, 5];
+
+        
         public frmRegistrar()
         {
             InitializeComponent();
@@ -37,7 +42,6 @@ namespace pryGestion
         {
             string varReunion = "";
             string varTarea = "";
-        
             if (dtpfecha.Value >= DateTime.Today)
             {
                 if (lstActividad.SelectedIndex != -1) 
@@ -94,12 +98,21 @@ namespace pryGestion
                         dtgvRegistro.Rows[n].Cells[2].Value = txtDetalleActivida.Text;
                         dtgvRegistro.Rows[n].Cells[3].Value = varReunion;
                         dtgvRegistro.Rows[n].Cells[4].Value = varTarea;
-
+                        
                         lstActividad.Text = "";
                         txtDetalleActivida.Text = "";
                         varReunion = "";
                         varTarea = "";
 
+
+                        //Regitrar Matriz
+                        int[,] matriz = new int[5,5];
+                        MatrizRegistrodeActividad[n,0] = dtpfecha.Text;
+                        MatrizRegistrodeActividad[n,1] = lstActividad.Text;
+                        MatrizRegistrodeActividad[n,2] = txtDetalleActivida.Text;
+                        MatrizRegistrodeActividad[n,3] = varReunion;
+                        MatrizRegistrodeActividad[n,4] = varTarea;
+                         
                     }
 
                 }
