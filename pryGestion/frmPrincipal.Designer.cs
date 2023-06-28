@@ -37,7 +37,7 @@
             // cmdRegistrarActividad
             // 
             this.cmdRegistrarActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistrarActividad.Location = new System.Drawing.Point(72, 186);
+            this.cmdRegistrarActividad.Location = new System.Drawing.Point(68, 177);
             this.cmdRegistrarActividad.Name = "cmdRegistrarActividad";
             this.cmdRegistrarActividad.Size = new System.Drawing.Size(125, 48);
             this.cmdRegistrarActividad.TabIndex = 0;

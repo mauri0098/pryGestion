@@ -201,6 +201,7 @@
             this.cmdVolver.TabIndex = 11;
             this.cmdVolver.Text = "Volver";
             this.cmdVolver.UseVisualStyleBackColor = true;
+            this.cmdVolver.Click += new System.EventHandler(this.cmdVolver_Click);
             // 
             // cmdRegistrar
             // 

@@ -94,6 +94,12 @@ namespace pryGestion
                         dtgvRegistro.Rows[n].Cells[2].Value = txtDetalleActivida.Text;
                         dtgvRegistro.Rows[n].Cells[3].Value = varReunion;
                         dtgvRegistro.Rows[n].Cells[4].Value = varTarea;
+
+                        lstActividad.Text = "";
+                        txtDetalleActivida.Text = "";
+                        varReunion = "";
+                        varTarea = "";
+
                     }
 
                 }
@@ -114,6 +120,11 @@ namespace pryGestion
         }
 
         private void chkDebate_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdVolver_Click(object sender, EventArgs e)
         {
 
         }
