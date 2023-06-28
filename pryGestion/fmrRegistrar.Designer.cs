@@ -50,30 +50,32 @@
             this.dtgvDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvReunion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtgvTareas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mrcReunion.SuspendLayout();
             this.mrcTareas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRegistro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTipodeActividad
             // 
             this.lblTipodeActividad.AutoSize = true;
-            this.lblTipodeActividad.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipodeActividad.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblTipodeActividad.Location = new System.Drawing.Point(8, 47);
+            this.lblTipodeActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipodeActividad.ForeColor = System.Drawing.Color.Blue;
+            this.lblTipodeActividad.Location = new System.Drawing.Point(7, 50);
             this.lblTipodeActividad.Name = "lblTipodeActividad";
-            this.lblTipodeActividad.Size = new System.Drawing.Size(110, 17);
+            this.lblTipodeActividad.Size = new System.Drawing.Size(128, 19);
             this.lblTipodeActividad.TabIndex = 0;
             this.lblTipodeActividad.Text = "Tipo de Actividad";
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblFecha.Location = new System.Drawing.Point(12, 9);
+            this.lblFecha.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.ForeColor = System.Drawing.Color.Blue;
+            this.lblFecha.Location = new System.Drawing.Point(11, 9);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(44, 17);
+            this.lblFecha.Size = new System.Drawing.Size(48, 19);
             this.lblFecha.TabIndex = 1;
             this.lblFecha.Text = "Fecha";
             this.lblFecha.Click += new System.EventHandler(this.label1_Click);
@@ -81,18 +83,18 @@
             // lblDetalleActividad
             // 
             this.lblDetalleActividad.AutoSize = true;
-            this.lblDetalleActividad.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetalleActividad.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblDetalleActividad.Location = new System.Drawing.Point(9, 87);
+            this.lblDetalleActividad.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDetalleActividad.ForeColor = System.Drawing.Color.Blue;
+            this.lblDetalleActividad.Location = new System.Drawing.Point(7, 83);
             this.lblDetalleActividad.Name = "lblDetalleActividad";
-            this.lblDetalleActividad.Size = new System.Drawing.Size(109, 17);
+            this.lblDetalleActividad.Size = new System.Drawing.Size(138, 21);
             this.lblDetalleActividad.TabIndex = 3;
             this.lblDetalleActividad.Text = "Detalle  Actividad";
             this.lblDetalleActividad.Click += new System.EventHandler(this.label2_Click);
             // 
             // dtpfecha
             // 
-            this.dtpfecha.Location = new System.Drawing.Point(77, 9);
+            this.dtpfecha.Location = new System.Drawing.Point(69, 9);
             this.dtpfecha.Name = "dtpfecha";
             this.dtpfecha.Size = new System.Drawing.Size(200, 20);
             this.dtpfecha.TabIndex = 4;
@@ -101,11 +103,11 @@
             // 
             this.mrcReunion.Controls.Add(this.optNo);
             this.mrcReunion.Controls.Add(this.optSi);
-            this.mrcReunion.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mrcReunion.ForeColor = System.Drawing.Color.Goldenrod;
-            this.mrcReunion.Location = new System.Drawing.Point(15, 230);
+            this.mrcReunion.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrcReunion.ForeColor = System.Drawing.Color.Blue;
+            this.mrcReunion.Location = new System.Drawing.Point(11, 230);
             this.mrcReunion.Name = "mrcReunion";
-            this.mrcReunion.Size = new System.Drawing.Size(254, 134);
+            this.mrcReunion.Size = new System.Drawing.Size(267, 134);
             this.mrcReunion.TabIndex = 8;
             this.mrcReunion.TabStop = false;
             this.mrcReunion.Text = "Reunion";
@@ -114,9 +116,10 @@
             // 
             this.optNo.AutoSize = true;
             this.optNo.Checked = true;
-            this.optNo.Location = new System.Drawing.Point(41, 62);
+            this.optNo.ForeColor = System.Drawing.Color.Blue;
+            this.optNo.Location = new System.Drawing.Point(41, 66);
             this.optNo.Name = "optNo";
-            this.optNo.Size = new System.Drawing.Size(44, 21);
+            this.optNo.Size = new System.Drawing.Size(47, 23);
             this.optNo.TabIndex = 1;
             this.optNo.TabStop = true;
             this.optNo.Text = "No";
@@ -125,9 +128,10 @@
             // optSi
             // 
             this.optSi.AutoSize = true;
+            this.optSi.ForeColor = System.Drawing.Color.Blue;
             this.optSi.Location = new System.Drawing.Point(41, 29);
             this.optSi.Name = "optSi";
-            this.optSi.Size = new System.Drawing.Size(36, 21);
+            this.optSi.Size = new System.Drawing.Size(39, 23);
             this.optSi.TabIndex = 0;
             this.optSi.Text = "Si";
             this.optSi.UseVisualStyleBackColor = true;
@@ -138,11 +142,11 @@
             this.mrcTareas.Controls.Add(this.chkNotasReunion);
             this.mrcTareas.Controls.Add(this.chkInvestigacion);
             this.mrcTareas.Controls.Add(this.chkRepositorio);
-            this.mrcTareas.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mrcTareas.ForeColor = System.Drawing.Color.Goldenrod;
+            this.mrcTareas.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrcTareas.ForeColor = System.Drawing.Color.Blue;
             this.mrcTareas.Location = new System.Drawing.Point(11, 370);
             this.mrcTareas.Name = "mrcTareas";
-            this.mrcTareas.Size = new System.Drawing.Size(266, 100);
+            this.mrcTareas.Size = new System.Drawing.Size(267, 100);
             this.mrcTareas.TabIndex = 9;
             this.mrcTareas.TabStop = false;
             this.mrcTareas.Text = "Tareas";
@@ -152,7 +156,7 @@
             this.chkDebate.AutoSize = true;
             this.chkDebate.Location = new System.Drawing.Point(152, 62);
             this.chkDebate.Name = "chkDebate";
-            this.chkDebate.Size = new System.Drawing.Size(69, 21);
+            this.chkDebate.Size = new System.Drawing.Size(77, 23);
             this.chkDebate.TabIndex = 3;
             this.chkDebate.Text = "Debate";
             this.chkDebate.UseVisualStyleBackColor = true;
@@ -162,7 +166,7 @@
             this.chkNotasReunion.AutoSize = true;
             this.chkNotasReunion.Location = new System.Drawing.Point(31, 56);
             this.chkNotasReunion.Name = "chkNotasReunion";
-            this.chkNotasReunion.Size = new System.Drawing.Size(110, 21);
+            this.chkNotasReunion.Size = new System.Drawing.Size(126, 23);
             this.chkNotasReunion.TabIndex = 2;
             this.chkNotasReunion.Text = "Notas reuniòn";
             this.chkNotasReunion.UseVisualStyleBackColor = true;
@@ -172,7 +176,7 @@
             this.chkInvestigacion.AutoSize = true;
             this.chkInvestigacion.Location = new System.Drawing.Point(152, 33);
             this.chkInvestigacion.Name = "chkInvestigacion";
-            this.chkInvestigacion.Size = new System.Drawing.Size(102, 21);
+            this.chkInvestigacion.Size = new System.Drawing.Size(117, 23);
             this.chkInvestigacion.TabIndex = 1;
             this.chkInvestigacion.Text = "Investigación";
             this.chkInvestigacion.UseVisualStyleBackColor = true;
@@ -182,27 +186,27 @@
             this.chkRepositorio.AutoSize = true;
             this.chkRepositorio.Location = new System.Drawing.Point(31, 33);
             this.chkRepositorio.Name = "chkRepositorio";
-            this.chkRepositorio.Size = new System.Drawing.Size(95, 21);
+            this.chkRepositorio.Size = new System.Drawing.Size(107, 23);
             this.chkRepositorio.TabIndex = 0;
             this.chkRepositorio.Text = "Repositorio";
             this.chkRepositorio.UseVisualStyleBackColor = true;
             // 
             // cmdVolver
             // 
-            this.cmdVolver.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdVolver.Location = new System.Drawing.Point(43, 524);
+            this.cmdVolver.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdVolver.Location = new System.Drawing.Point(42, 497);
             this.cmdVolver.Name = "cmdVolver";
-            this.cmdVolver.Size = new System.Drawing.Size(75, 23);
+            this.cmdVolver.Size = new System.Drawing.Size(75, 32);
             this.cmdVolver.TabIndex = 11;
             this.cmdVolver.Text = "Volver";
             this.cmdVolver.UseVisualStyleBackColor = true;
             // 
             // cmdRegistrar
             // 
-            this.cmdRegistrar.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistrar.Location = new System.Drawing.Point(163, 524);
+            this.cmdRegistrar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdRegistrar.Location = new System.Drawing.Point(148, 497);
             this.cmdRegistrar.Name = "cmdRegistrar";
-            this.cmdRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.cmdRegistrar.Size = new System.Drawing.Size(75, 32);
             this.cmdRegistrar.TabIndex = 12;
             this.cmdRegistrar.Text = "Registrar";
             this.cmdRegistrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -211,22 +215,24 @@
             // 
             // lstActividad
             // 
+            this.lstActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstActividad.FormattingEnabled = true;
             this.lstActividad.Items.AddRange(new object[] {
             "Actividad1",
             "Actividad2",
             "Actividad3"});
-            this.lstActividad.Location = new System.Drawing.Point(124, 47);
+            this.lstActividad.Location = new System.Drawing.Point(148, 51);
             this.lstActividad.Name = "lstActividad";
-            this.lstActividad.Size = new System.Drawing.Size(121, 21);
+            this.lstActividad.Size = new System.Drawing.Size(121, 27);
             this.lstActividad.TabIndex = 14;
             // 
             // txtDetalleActivida
             // 
+            this.txtDetalleActivida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDetalleActivida.Location = new System.Drawing.Point(11, 107);
             this.txtDetalleActivida.Multiline = true;
             this.txtDetalleActivida.Name = "txtDetalleActivida";
-            this.txtDetalleActivida.Size = new System.Drawing.Size(265, 117);
+            this.txtDetalleActivida.Size = new System.Drawing.Size(267, 117);
             this.txtDetalleActivida.TabIndex = 15;
             // 
             // dtgvRegistro
@@ -241,9 +247,9 @@
             this.dtgvDetalle,
             this.dtgvReunion,
             this.dtgvTareas});
-            this.dtgvRegistro.Location = new System.Drawing.Point(290, 214);
+            this.dtgvRegistro.Location = new System.Drawing.Point(293, 198);
             this.dtgvRegistro.Name = "dtgvRegistro";
-            this.dtgvRegistro.Size = new System.Drawing.Size(524, 352);
+            this.dtgvRegistro.Size = new System.Drawing.Size(546, 352);
             this.dtgvRegistro.TabIndex = 16;
             // 
             // dtgvFecha
@@ -271,11 +277,22 @@
             this.dtgvTareas.HeaderText = "Tareas";
             this.dtgvTareas.Name = "dtgvTareas";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::pryGestion.Properties.Resources._1431098283_691735_1431098420_noticia_normal__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(293, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(546, 183);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 578);
+            this.ClientSize = new System.Drawing.Size(860, 568);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dtgvRegistro);
             this.Controls.Add(this.txtDetalleActivida);
             this.Controls.Add(this.lstActividad);
@@ -296,6 +313,7 @@
             this.mrcTareas.ResumeLayout(false);
             this.mrcTareas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRegistro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,5 +343,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvDetalle;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvReunion;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtgvTareas;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

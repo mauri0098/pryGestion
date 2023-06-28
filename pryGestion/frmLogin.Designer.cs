@@ -39,10 +39,11 @@
             // 
             // txtContraseña
             // 
+            this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.Location = new System.Drawing.Point(102, 80);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
-            this.txtContraseña.Size = new System.Drawing.Size(105, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(105, 21);
             this.txtContraseña.TabIndex = 12;
             // 
             // cmdCancelar
@@ -68,9 +69,10 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(102, 28);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(102, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(102, 21);
             this.txtUsuario.TabIndex = 9;
             // 
             // lblContraseña
@@ -82,12 +84,13 @@
             this.lblContraseña.Size = new System.Drawing.Size(62, 14);
             this.lblContraseña.TabIndex = 8;
             this.lblContraseña.Text = "Contraseña";
+            this.lblContraseña.Click += new System.EventHandler(this.lblContraseña_Click);
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(26, 34);
+            this.lblUsuario.Location = new System.Drawing.Point(26, 31);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(45, 14);
             this.lblUsuario.TabIndex = 7;

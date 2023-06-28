@@ -70,5 +70,10 @@ namespace pryGestion
 
 
         }
+
+        private void lblContraseña_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
