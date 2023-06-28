@@ -112,5 +112,10 @@ namespace pryGestion
                 dtpfecha.Focus();
             }
         }
+
+        private void chkDebate_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

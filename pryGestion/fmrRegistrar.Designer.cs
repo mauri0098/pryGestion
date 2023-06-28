@@ -154,17 +154,18 @@
             // chkDebate
             // 
             this.chkDebate.AutoSize = true;
-            this.chkDebate.Location = new System.Drawing.Point(152, 62);
+            this.chkDebate.Location = new System.Drawing.Point(144, 55);
             this.chkDebate.Name = "chkDebate";
             this.chkDebate.Size = new System.Drawing.Size(77, 23);
             this.chkDebate.TabIndex = 3;
             this.chkDebate.Text = "Debate";
             this.chkDebate.UseVisualStyleBackColor = true;
+            this.chkDebate.CheckedChanged += new System.EventHandler(this.chkDebate_CheckedChanged);
             // 
             // chkNotasReunion
             // 
             this.chkNotasReunion.AutoSize = true;
-            this.chkNotasReunion.Location = new System.Drawing.Point(31, 56);
+            this.chkNotasReunion.Location = new System.Drawing.Point(17, 55);
             this.chkNotasReunion.Name = "chkNotasReunion";
             this.chkNotasReunion.Size = new System.Drawing.Size(126, 23);
             this.chkNotasReunion.TabIndex = 2;
@@ -174,7 +175,7 @@
             // chkInvestigacion
             // 
             this.chkInvestigacion.AutoSize = true;
-            this.chkInvestigacion.Location = new System.Drawing.Point(152, 33);
+            this.chkInvestigacion.Location = new System.Drawing.Point(144, 26);
             this.chkInvestigacion.Name = "chkInvestigacion";
             this.chkInvestigacion.Size = new System.Drawing.Size(117, 23);
             this.chkInvestigacion.TabIndex = 1;
@@ -184,7 +185,7 @@
             // chkRepositorio
             // 
             this.chkRepositorio.AutoSize = true;
-            this.chkRepositorio.Location = new System.Drawing.Point(31, 33);
+            this.chkRepositorio.Location = new System.Drawing.Point(17, 26);
             this.chkRepositorio.Name = "chkRepositorio";
             this.chkRepositorio.Size = new System.Drawing.Size(107, 23);
             this.chkRepositorio.TabIndex = 0;
@@ -218,9 +219,12 @@
             this.lstActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstActividad.FormattingEnabled = true;
             this.lstActividad.Items.AddRange(new object[] {
-            "Actividad1",
-            "Actividad2",
-            "Actividad3"});
+            "Producción forestal",
+            "Agricultura",
+            "Pecuaria",
+            "Industria",
+            "Comercio",
+            "TurismoTenencia de la tierra"});
             this.lstActividad.Location = new System.Drawing.Point(148, 51);
             this.lstActividad.Name = "lstActividad";
             this.lstActividad.Size = new System.Drawing.Size(121, 27);
