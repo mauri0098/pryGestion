@@ -43,7 +43,7 @@
             this.txtContraseña.Location = new System.Drawing.Point(102, 80);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
-            this.txtContraseña.Size = new System.Drawing.Size(105, 21);
+            this.txtContraseña.Size = new System.Drawing.Size(102, 21);
             this.txtContraseña.TabIndex = 12;
             // 
             // cmdCancelar
@@ -70,7 +70,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(102, 28);
+            this.txtUsuario.Location = new System.Drawing.Point(102, 31);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(102, 21);
             this.txtUsuario.TabIndex = 9;

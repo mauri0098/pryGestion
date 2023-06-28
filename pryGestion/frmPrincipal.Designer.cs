@@ -48,9 +48,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::pryGestion.Properties.Resources.b2ap3_large_Ilustracion_publicacion_control_actividades;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 168);
+            this.pictureBox1.Size = new System.Drawing.Size(278, 168);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;

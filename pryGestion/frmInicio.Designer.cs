@@ -48,9 +48,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::pryGestion.Properties.Resources._1431098283_691735_1431098420_noticia_normal__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(515, 255);
+            this.pictureBox1.Size = new System.Drawing.Size(524, 255);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
