@@ -15,7 +15,6 @@ namespace pryGestion
         //declaracion de matriz
         string[,] MatrizRegistrodeActividad
               = new string[5, 5];
-
         
         public frmRegistrar()
         {
@@ -99,20 +98,22 @@ namespace pryGestion
                         dtgvRegistro.Rows[n].Cells[3].Value = varReunion;
                         dtgvRegistro.Rows[n].Cells[4].Value = varTarea;
                         
+                        
+
+                        //Regitrar Matriz
+                        
+                        MatrizRegistrodeActividad[n,0] = dtpfecha.Text;
+                        MatrizRegistrodeActividad[n,1] = lstActividad.Text;
+                        MatrizRegistrodeActividad[n,2] = txtDetalleActivida.Text;
+                        MatrizRegistrodeActividad[n,3] = varReunion;
+                        MatrizRegistrodeActividad[n,4] = varTarea;
+
                         lstActividad.Text = "";
                         txtDetalleActivida.Text = "";
                         varReunion = "";
                         varTarea = "";
 
 
-                        //Regitrar Matriz
-                        int[,] matriz = new int[5,5];
-                        MatrizRegistrodeActividad[n,0] = dtpfecha.Text;
-                        MatrizRegistrodeActividad[n,1] = lstActividad.Text;
-                        MatrizRegistrodeActividad[n,2] = txtDetalleActivida.Text;
-                        MatrizRegistrodeActividad[n,3] = varReunion;
-                        MatrizRegistrodeActividad[n,4] = varTarea;
-                         
                     }
 
                 }
