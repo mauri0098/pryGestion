@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.cmdCancelar = new System.Windows.Forms.Button();
-            this.cmdLogin = new System.Windows.Forms.Button();
+            this.cmdAcetar = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
@@ -55,17 +55,18 @@
             this.cmdCancelar.TabIndex = 11;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
+            this.cmdCancelar.Click += new System.EventHandler(this.cmdCancelar_Click);
             // 
-            // cmdLogin
+            // cmdAcetar
             // 
-            this.cmdLogin.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdLogin.Location = new System.Drawing.Point(29, 129);
-            this.cmdLogin.Name = "cmdLogin";
-            this.cmdLogin.Size = new System.Drawing.Size(75, 23);
-            this.cmdLogin.TabIndex = 10;
-            this.cmdLogin.Text = "Login";
-            this.cmdLogin.UseVisualStyleBackColor = true;
-            this.cmdLogin.Click += new System.EventHandler(this.cmdLogin_Click);
+            this.cmdAcetar.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdAcetar.Location = new System.Drawing.Point(29, 129);
+            this.cmdAcetar.Name = "cmdAcetar";
+            this.cmdAcetar.Size = new System.Drawing.Size(75, 23);
+            this.cmdAcetar.TabIndex = 10;
+            this.cmdAcetar.Text = "Aceptar";
+            this.cmdAcetar.UseVisualStyleBackColor = true;
+            this.cmdAcetar.Click += new System.EventHandler(this.cmdLogin_Click);
             // 
             // txtUsuario
             // 
@@ -103,7 +104,7 @@
             this.ClientSize = new System.Drawing.Size(249, 174);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.cmdCancelar);
-            this.Controls.Add(this.cmdLogin);
+            this.Controls.Add(this.cmdAcetar);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
@@ -121,7 +122,7 @@
 
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button cmdCancelar;
-        private System.Windows.Forms.Button cmdLogin;
+        private System.Windows.Forms.Button cmdAcetar;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.Label lblUsuario;
