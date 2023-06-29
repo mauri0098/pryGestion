@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrar));
             this.lblTipodeActividad = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblDetalleActividad = new System.Windows.Forms.Label();
@@ -62,7 +63,7 @@
             this.lblTipodeActividad.AutoSize = true;
             this.lblTipodeActividad.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipodeActividad.ForeColor = System.Drawing.Color.Blue;
-            this.lblTipodeActividad.Location = new System.Drawing.Point(7, 50);
+            this.lblTipodeActividad.Location = new System.Drawing.Point(7, 49);
             this.lblTipodeActividad.Name = "lblTipodeActividad";
             this.lblTipodeActividad.Size = new System.Drawing.Size(128, 19);
             this.lblTipodeActividad.TabIndex = 0;
@@ -226,7 +227,7 @@
             "Industria",
             "Comercio",
             "TurismoTenencia de la tierra"});
-            this.lstActividad.Location = new System.Drawing.Point(148, 51);
+            this.lstActividad.Location = new System.Drawing.Point(148, 46);
             this.lstActividad.Name = "lstActividad";
             this.lstActividad.Size = new System.Drawing.Size(121, 27);
             this.lstActividad.TabIndex = 14;
@@ -310,6 +311,7 @@
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblTipodeActividad);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRegistrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar";
